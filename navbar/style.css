@@ -98,20 +98,3 @@
   justify-content: space-between;
   width: 100%;
 }
-
-.navbar a {
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  margin-left: 1rem;
-}
-
-.navbar__logo {
-  font-weight: bold;
-}
-
-.navbar__link {
-  list-style: none;
-  display: inline-flex;
-  flex: 1;
-  justify-content: flex-end;
-}
