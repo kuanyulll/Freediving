@@ -154,7 +154,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.container {
+.bannerContainer {
   line-height: 1.5rem;
   width: 100%;
   -webkit-box-align: center;
@@ -254,7 +254,7 @@ body {
 }
 
 .wrap {
-  height: 100vh;
+  height: 500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -276,14 +276,13 @@ body {
 }
 
 .item .pic img {
-  height: 315px;
   vertical-align: middle;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
 .item .text {
-  width: 3000px;
+  width: 100vh;
   margin-top: 10px;
   margin-right: 30px;
   padding: 20px;
