@@ -1,41 +1,53 @@
-.header {
-  /* 定義本區塊為彈性容器 */
+// 潛水知識
+.header__knowledge {
   display: flex;
-  /* 定義彈性容器內副軸至中 */
   align-items: center;
-  /* 定義彈性容器內為直列顯示 */
   flex-direction: column;
-  /* 定義彈性容器內主軸至中 */
   justify-content: center;
-  /* 設定本容器的高度，vh 為視窗的高度 */
   height: 80vh;
-  /* 定義背景圖片，這邊使用連結方式引入 images 內的圖檔 */
-
   background-image: url('/assets/images/iamge02.jpg');
-  /* 背景的定位方式進行至中處理 */
   background-position: center;
-  /*固定背景*/
   background-size: fixed;
-  /* 背景尺寸採用自動滿版的模式 */
   background-size: cover;
 }
 
-.header__title {
-  /* 單獨設定區塊靠下的行距 */
+.headerTitle__knowledge {
   margin-bottom: 1rem;
-  /* 定義內容文字顏色 */
-  color:  rgb(238, 238, 238);
-  /* 設定文字大小 rem 代表當下 html 設定的 px */
+  color:$color_text-color;
   font-size: 2.5rem;
   text-shadow: 0.1em 0.1em 0.2em black
-
 }
 
-.header__container {
-  /* 設定本區塊的寬度最多為 600px */
+.headerContainer__knowledge{
   max-width: 600px;
-  /* 定義內容文字顏色 */
-  color: rgb(238, 238, 238);
-  /* 設定內容文字顯示方式，center 為至中顯示 */
+  color: $color_text-color;
+  text-align: center;
+}
+
+
+
+// 潛水旅遊
+.header__travel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  background-image: url('/assets/images/image03.jpg');
+  background-position: center;
+  background-size: fixed;
+  background-size: cover;
+}
+
+.headerTitle__travel {
+  margin-bottom: 1rem;
+  color:$color_text-color;
+  font-size: 2.5rem;
+  text-shadow: 0.1em 0.1em 0.2em black
+}
+
+.headerContainer__travel{
+  max-width: 600px;
+  color: $color_text-color;
   text-align: center;
 }
