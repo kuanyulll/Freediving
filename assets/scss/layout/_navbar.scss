@@ -18,7 +18,7 @@
   height: 2px;
   width: 26px;
   position: absolute;
-  background: white;
+  background: $color_white;
   margin: -1px 0 0 -13px;
   transition: all .5s;
 }
@@ -61,6 +61,7 @@
   /* 用 translate 把選單藏到畫面右邊去 */
   transform: translateX(100%);
   transition: transform .5s;
+  z-index: 1;
 }
 
 #nav-toggle:checked ~ .menu {
@@ -84,44 +85,4 @@ align-items: center;
   margin-left: 50%;
   text-decoration: none;
   color: white;
-}
-
-
-
-
-
-
-.navbar {
-	position: fixed;
-	background-color: #002059 ;
-	height: 20vh;
-
-	opacity: 50%;
-	// background-image: url('/assets/images/navbar.jpg');
-  background-size: cover;
-z-index: 100;
-display: flex;
-align-items: center;
-justify-content: space-between;
-// margin: 25px 10%;
-width:100%;
-}
-
-.navbar a{
-	color:rgb(255, 255, 255);
-	text-decoration: none;
-	margin-left: 1rem;
-}
-
-.navbar__logo{
-	font-weight: bold;
-
-}
-
-.navbar__link{
-	list-style: none;
-	display:inline-flex;
-	flex:1;
-	justify-content: flex-end;
-
 }

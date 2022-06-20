@@ -1,14 +1,13 @@
-
-$color_white:#FFFFFF;
+$color_white:#ffffff;
 $color_black:#000000;
 
-// 強調色
-$color_accent: #27647c;
-// 輔助色
-$color_auxiliary:#3E6588;
-// 主色
-$color_primary: #214C77;
+// 主色，強調色
+$color_accent:#214c77;
 
-// 文字顏色
-$color_text-color:#e7e7e7;
-$color_text-color_dark:#092435;
+// 輔助色
+$color_auxiliary--light:#cef0f9;
+$color_auxiliary--green:#3e877c;
+$color_auxiliary--dark:#092435;
+
+$color_text-color:#000612;
+$color_text-colorwhite:#e7e7e7;

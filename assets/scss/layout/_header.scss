@@ -1,53 +1,58 @@
 // 潛水知識
 .header__knowledge {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
-  background-image: url('/assets/images/iamge02.jpg');
+  height: 100vh;
+  background-image: url('/assets/images/iamge02__knowledge.jpg');
   background-position: center;
   background-size: fixed;
   background-size: cover;
 }
 
-.headerTitle__knowledge {
+.headertitle__knowledge {
   margin-bottom: 1rem;
-  color:$color_text-color;
-  font-size: 2.5rem;
-  text-shadow: 0.1em 0.1em 0.2em black
+  color: $color_text-colorwhite;
+  font-size: 3rem;
+  text-shadow: 0.1em 0.1em 0.5em rgba(29, 29, 34, 0.822)
 }
 
-.headerContainer__knowledge{
+.headercontainer__knowledge{
   max-width: 600px;
-  color: $color_text-color;
+  color: $color_text-colorwhite;
   text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(29, 29, 34, 0.822)
 }
 
 
 
 // 潛水旅遊
 .header__travel {
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 80vh;
-  background-image: url('/assets/images/image03.jpg');
+  height: 100vh;
+  background-image: url('/assets/images/image03__knowledge.jpg');
   background-position: center;
   background-size: fixed;
   background-size: cover;
 }
 
-.headerTitle__travel {
+.headertitle__travel {
   margin-bottom: 1rem;
-  color:$color_text-color;
-  font-size: 2.5rem;
-  text-shadow: 0.1em 0.1em 0.2em black
+  color: $color_text-colorwhite;
+  font-size: 3rem;
+  text-shadow: 0.1em 0.1em 0.5em rgba(29, 29, 34, 0.822)
 }
 
-.headerContainer__travel{
+.headercontainer__travel{
+  font-size: 1.2rem;
   max-width: 600px;
-  color: $color_text-color;
+  color: $color_text-colorwhite;
   text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(29, 29, 34, 0.822)
 }
